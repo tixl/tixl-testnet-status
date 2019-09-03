@@ -1,2 +1,65 @@
 # tixl-prototype-status
-Gives an insight into where we are standing with the Tixl prototype development
+Gives an insight into where we are standing with the Tixl prototype development.
+
+We have set up a channel #github on our Discord server (https://discordapp.com/invite/dzVzMdp) where all commit messages are shared. 
+
+### Crypto 
+Repository: tixl-crypto
+- [x] NTRU basic setup (encryption) 
+- [x] Signatures
+- [x] Commitment scheme basic setup
+- [ ] Commitment scheme range proofs
+- [ ] NTRU advanced settings
+
+### Ledger
+Repository: tixl-ledger
+- [x] Interface
+- [x] Data Structure
+- [x] Persistence
+- [ ] Import and Export
+- [ ] Implement validation
+
+### Gateway
+Repository: tixl-prototype-api
+- [ ] Connection to validators
+- [ ] Implement API
+- [ ] Distribute transactions to validator network
+
+### Consensus 
+Repository: tixl-consensus
+- [x] Federated Byzantine Agreement
+- [x] Implement SCP protocol
+- [x] Run simulations
+- [ ] Handle further Edge-Cases
+
+### Validator Nodes 
+Repository: tixl-validator
+- [x] Integrate with consenus
+- [x] Generate Keypairs
+- [x] Sign and Validate messages
+- [x] Build HTTP Interface
+- [x] Implement P2P Communication
+- [ ] Integrate with ledger
+- [ ] Receive and validate transactions
+- [ ] Hand off transactions to consensus as hash
+- [ ] Broadcast transcations to other validators
+- [ ] State Synchronisation
+- [ ] Interface to get state for wallets
+- [ ] Deploy test network
+
+### Bot Wallet
+- [ ] Create basic operations to interact with Gateway
+- [ ] Implement automatic clients, that generate transactions
+- [ ] Subscribe to transactions
+
+### Explorer
+- [ ] Fetch transactions from network
+- [ ] Build GUI
+
+## Next Steps after first prototype release
+- GUI Wallet for everyone to test
+- Generate Keys from mnemoic phrase
+- Load tests
+- Cut through transactions
+- Network privacy
+- Start Mainnet
