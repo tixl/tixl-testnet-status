@@ -22,7 +22,7 @@ Repository: tixl-ledger
 ### Gateway
 Repository: tixl-gateway
 - [x] Distribute transactions to validator network
-- [ ] Connection to validators (subscription)
+- [x] Connection to validators (subscription)
 - [ ] Implement API
 
 
