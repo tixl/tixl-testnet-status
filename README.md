@@ -21,9 +21,10 @@ Repository: tixl-ledger
 
 ### Gateway
 Repository: tixl-gateway
-- [ ] Connection to validators
+- [x] Distribute transactions to validator network
+- [ ] Connection to validators (subscription)
 - [ ] Implement API
-- [ ] Distribute transactions to validator network
+
 
 ### Consensus 
 Repository: tixl-consensus
@@ -39,10 +40,11 @@ Repository: tixl-validator
 - [x] Sign and Validate messages
 - [x] Build HTTP Interface
 - [x] Implement P2P Communication
+- [x] Receive transactions
+- [x] Hand off transactions to consensus as hash
+- [x] Broadcast transcations to other validators
 - [ ] Integrate with ledger
-- [ ] Receive and validate transactions
-- [ ] Hand off transactions to consensus as hash
-- [ ] Broadcast transcations to other validators
+- [ ] Validate transactions
 - [ ] State Synchronisation
 - [ ] Interface to get state for wallets
 - [ ] Deploy test network
