@@ -20,7 +20,7 @@ Repository: tixl-ledger
 - [ ] Implement validation
 
 ### Gateway
-Repository: tixl-prototype-api
+Repository: tixl-gateway
 - [ ] Connection to validators
 - [ ] Implement API
 - [ ] Distribute transactions to validator network
