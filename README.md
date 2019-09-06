@@ -8,7 +8,7 @@ Repository: tixl-crypto
 - [x] NTRU basic setup (encryption) 
 - [x] Signatures
 - [x] Commitment scheme basic setup
-- [ ] Commitment scheme range proofs
+- [x] Commitment scheme range proofs
 - [ ] NTRU advanced settings
 
 ### Ledger
@@ -60,7 +60,7 @@ Repository: tixl-validator
 
 ## Next Steps after first prototype release
 - GUI Wallet for everyone to test
-- Generate Keys from mnemoic phrase
+- Generate Keys from mnemonic phrase
 - Load tests
 - Cut through transactions
 - Network privacy
