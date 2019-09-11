@@ -61,6 +61,7 @@ Repository: tixl-validator
 ## Next Steps after first prototype release
 - GUI Wallet for everyone to test
 - Generate Keys from mnemonic phrase
+- Mini PoWs
 - Load tests
 - Cut through transactions
 - Network privacy
