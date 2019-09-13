@@ -17,13 +17,13 @@ Repository: tixl-ledger
 - [x] Data Structure
 - [x] Persistence
 - [ ] Import and Export
-- [ ] Implement validation
+- [ ] Implement validation (🔜)
 
 ### Gateway
 Repository: tixl-gateway
 - [x] Distribute transactions to validator network
 - [x] Connection to validators (subscription)
-- [ ] Implement API
+- [ ] Implement API (🔜)
 
 
 ### Consensus 
@@ -43,9 +43,10 @@ Repository: tixl-validator
 - [x] Receive transactions
 - [x] Hand off transactions to consensus as hash
 - [x] Broadcast transcations to other validators
+- [x] Witness mode
 - [ ] Integrate with ledger
-- [ ] Validate transactions
-- [ ] State Synchronisation
+- [ ] Validate transactions 
+- [ ] State Synchronisation (🔜)
 - [ ] Interface to get state for wallets
 - [ ] Deploy test network
 
@@ -55,8 +56,8 @@ Repository: tixl-validator
 - [ ] Subscribe to transactions
 
 ### Explorer
-- [ ] Fetch transactions from network
-- [ ] Build GUI
+- [ ] Fetch transactions from network (🔜)
+- [ ] Build GUI (🔜)
 
 ## Next Steps after first prototype release
 - GUI Wallet for everyone to test
