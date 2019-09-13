@@ -44,6 +44,7 @@ Repository: tixl-validator
 - [x] Hand off transactions to consensus as hash
 - [x] Broadcast transcations to other validators
 - [x] Witness mode
+- [ ] recover from stuck states
 - [ ] Integrate with ledger
 - [ ] Validate transactions 
 - [ ] State Synchronisation (🔜)
