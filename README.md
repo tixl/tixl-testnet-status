@@ -19,7 +19,7 @@ Repository: tixl-ledger
 - [x] Persistence
 - [x] Implement validation
 - [X] Import and Export
-- [ ] encrypted transactions
+- [ ] Encrypted transactions
 
 
 ### Gateway
@@ -47,7 +47,7 @@ Repository: tixl-validator
 - [x] Hand off transactions to consensus as hash
 - [x] Broadcast transcations to other validators
 - [x] Witness mode
-- [x] recover from stuck states
+- [x] Recover from stuck states
 - [x] State Synchronisation 
 - [ ] Integrate with ledger (🔜)
 - [ ] Validate transactions 
