@@ -10,6 +10,7 @@ Repository: tixl-crypto
 - [x] Commitment scheme basic setup
 - [x] Commitment scheme range proofs
 - [ ] NTRU advanced settings
+- [ ] NTRU Web Assembly Port
 
 ### Ledger
 Repository: tixl-ledger
@@ -17,7 +18,8 @@ Repository: tixl-ledger
 - [x] Data Structure
 - [x] Persistence
 - [x] Implement validation
-- [ ] Import and Export (🔜)
+- [X] Import and Export
+- [ ] encrypted transactions
 
 
 ### Gateway
@@ -58,11 +60,14 @@ Repository: tixl-validator
 - [ ] Subscribe to transactions
 
 ### Explorer
-- [ ] Fetch transactions from network (🔜)
-- [ ] Build GUI (🔜)
+- [X] Fetch transactions from network (subscription)
+- [X] Build GUI
+- [ ] Fetch transactions from network (history)
+- [ ] Improve GUI
 
 ## Next Steps after first prototype release
 - GUI Wallet for everyone to test
+- Faucet to get Testnet Tokens
 - Generate Keys from mnemonic phrase
 - Mini PoWs
 - Load tests
