@@ -49,8 +49,8 @@ Repository: tixl-validator
 - [x] Witness mode
 - [x] Recover from stuck states
 - [x] State Synchronisation 
-- [ ] Integrate with ledger (🔜)
-- [ ] Validate transactions 
+- [x] Integrate with ledger
+- [x] Validate transactions 
 - [ ] Interface to get state for wallets
 - [ ] Deploy test network
 
