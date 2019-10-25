@@ -26,7 +26,7 @@ Repository: tixl-ledger
 Repository: tixl-gateway
 - [x] Distribute transactions to validator network
 - [x] Connection to validators (subscription)
-- [ ] Implement API (🔜)
+- [x] Implement API
 
 
 ### Consensus 
@@ -51,13 +51,13 @@ Repository: tixl-validator
 - [x] State Synchronisation 
 - [x] Integrate with ledger
 - [x] Validate transactions 
-- [ ] Interface to get state for wallets
+- [x] Interface to get state for wallets
 - [ ] Deploy test network
 
 ### Bot Wallet
-- [ ] Create basic operations to interact with Gateway
-- [ ] Implement automatic clients, that generate transactions
-- [ ] Subscribe to transactions
+- [x] Create basic operations to interact with Gateway
+- [x] Implement automatic clients, that generate transactions
+- [x] Subscribe to transactions
 
 ### Explorer
 - [X] Fetch transactions from network (subscription)
