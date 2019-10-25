@@ -21,13 +21,11 @@ Repository: tixl-ledger
 - [X] Import and Export
 - [ ] Encrypted transactions
 
-
 ### Gateway
 Repository: tixl-gateway
 - [x] Distribute transactions to validator network
 - [x] Connection to validators (subscription)
 - [x] Implement API
-
 
 ### Consensus 
 Repository: tixl-consensus
@@ -55,11 +53,13 @@ Repository: tixl-validator
 - [ ] Deploy test network
 
 ### Bot Wallet
+Repository: tixl-wallet-bots
 - [x] Create basic operations to interact with Gateway
 - [x] Implement automatic clients, that generate transactions
 - [x] Subscribe to transactions
 
 ### Explorer
+Repository: tixl-explorer
 - [X] Fetch transactions from network (subscription)
 - [X] Build GUI
 - [ ] Fetch transactions from network (history)
@@ -73,4 +73,4 @@ Repository: tixl-validator
 - Load tests
 - Cut through transactions
 - Network privacy
-- Start Mainnet
+- Start Mainnet development
