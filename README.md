@@ -50,7 +50,7 @@ Repository: tixl-validator
 - [x] Integrate with ledger
 - [x] Validate transactions 
 - [x] Interface to get state for wallets
-- [ ] Deploy test network
+- [x] Deploy test network
 
 ### Bot Wallet
 Repository: tixl-wallet-bots
