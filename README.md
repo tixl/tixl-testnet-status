@@ -9,8 +9,8 @@ Repository: tixl-crypto
 - [x] Signatures
 - [x] Commitment scheme basic setup
 - [x] Commitment scheme range proofs
-- [ ] NTRU advanced settings
-- [ ] NTRU Web Assembly Port
+- [x] NTRU advanced settings
+- [x] NTRU Web Assembly Port
 
 ### Ledger
 Repository: tixl-ledger
@@ -19,7 +19,7 @@ Repository: tixl-ledger
 - [x] Persistence
 - [x] Implement validation
 - [X] Import and Export
-- [ ] Encrypted transactions
+- [X] Encrypted transactions
 
 ### Gateway
 Repository: tixl-gateway
