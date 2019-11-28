@@ -3,6 +3,29 @@ Gives an insight into where we are standing with the Tixl prototype development.
 
 We have set up a channel #github on our Discord server (https://discordapp.com/invite/dzVzMdp) where all commit messages are shared. 
 
+### Crypto for browser
+- [x] NTRU Web Assembly
+- [x] AES Web Assembly
+- [x] Perdersen Commitments Web Assembly
+- [ ] export to module
+ 
+### GUI Wallet
+- [x] Build UI
+- [ ] Handle State
+- [ ] Connect to Testnet
+
+### Deployment & Infrastructure
+- [x] Deploy Validator test setup
+- [x] Deploy Gateway
+- [x] Deploy Witness Node
+- [x] Deploy Wallet Bots
+- [x] Deploy Explorer
+- [x] Make all services available via domain
+- [x] Make services available with SSL
+- [ ] Deploy GUI Wallet
+
+## Completed parts
+
 ### Crypto 
 Repository: tixl-crypto
 - [x] NTRU basic setup (encryption) 
@@ -62,11 +85,11 @@ Repository: tixl-wallet-bots
 Repository: tixl-explorer
 - [X] Fetch transactions from network (subscription)
 - [X] Build GUI
-- [ ] Fetch transactions from network (history)
-- [ ] Improve GUI
+- [X] Fetch transactions from network (history)
+- [X] Improve GUI
 
 ## Next Steps after first prototype release
-- GUI Wallet for everyone to test
+
 - Faucet to get Testnet Tokens
 - Generate Keys from mnemonic phrase
 - Mini PoWs
