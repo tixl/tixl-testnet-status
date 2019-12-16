@@ -3,16 +3,21 @@ Gives an insight into where we are standing with the Tixl prototype development.
 
 We have set up a channel #github on our Discord server (https://discordapp.com/invite/dzVzMdp) where all commit messages are shared. 
 
+Further tasks are tracked in the Issues Tab.
+
+
+## Completed parts
+
 ### Crypto for browser
 - [x] NTRU Web Assembly
 - [x] AES Web Assembly
 - [x] Perdersen Commitments Web Assembly
-- [ ] export to module
+- [x] export to module
  
 ### GUI Wallet
 - [x] Build UI
-- [ ] Handle State
-- [ ] Connect to Testnet
+- [x] Handle State
+- [x] Connect to Testnet
 
 ### Deployment & Infrastructure
 - [x] Deploy Validator test setup
@@ -22,9 +27,7 @@ We have set up a channel #github on our Discord server (https://discordapp.com/i
 - [x] Deploy Explorer
 - [x] Make all services available via domain
 - [x] Make services available with SSL
-- [ ] Deploy GUI Wallet
-
-## Completed parts
+- [x] Deploy GUI Wallet
 
 ### Crypto 
 Repository: tixl-crypto
