@@ -1,5 +1,5 @@
-# tixl-prototype-status
-Gives an insight into where we are standing with the Tixl prototype development.
+# tixl-testnet-status
+Gives an insight into where we are standing with the Tixl testnet development.
 
 We have set up a channel #github on our Discord server (https://discordapp.com/invite/dzVzMdp) where all commit messages are shared. 
 
@@ -91,7 +91,7 @@ Repository: tixl-explorer
 - [X] Fetch transactions from network (history)
 - [X] Improve GUI
 
-## Next Steps after first prototype release
+## Next Steps after first testnet release
 
 - Faucet to get Testnet Tokens
 - Generate Keys from mnemonic phrase
