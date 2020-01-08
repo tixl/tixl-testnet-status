@@ -3,10 +3,42 @@ Gives an insight into where we are standing with the Tixl testnet development.
 
 We have set up a channel #github on our Discord server (https://discordapp.com/invite/dzVzMdp) where all commit messages are shared. 
 
-Further tasks are tracked in the Issues Tab.
+Development updates are shared on [Discord](https://discord.gg/dzVzMdp), [Telegram](https://t.me/tixlcurrency) and [Twitter](https://twitter.com/tixlcurrency). Join our channels to stay up to date.
 
+## Completed parts testnet version "Blankenese"
 
-## Completed parts
+### General
+- [ ] Refactoring
+- [ ] Websockets
+
+### GUI Wallet
+Repository: tixl-wallet
+- [ ] Improve usability / UX
+- [ ] Improve state handling
+- [ ] Stealhchains
+- [ ] Optional privacy
+- [ ] Shorter addresses (BIP-39 compatible)
+- [ ] Use High-Level Ledger API
+- [ ] Show transaction hash
+- [ ] Key handling (allow restore wallet from private key)
+- [ ] Allow (encrypted) transaction payload
+- [ ] Show invalid blocks
+- [ ] Error handling (e.g. not enough balance, invalid block)
+
+### Deployment & Infrastructure
+- [x] Internal Development Testnet
+- [ ] Disk Space Monitoring and Warning
+
+### Ledger
+Repository: tixl-ledger
+- [ ] Provide High-Level API
+- [ ] Make encryption optional
+- [ ] Burn tokens
+- [ ] Allow (encrypted) transaction payload
+- [ ] Provide number of unspend blocks
+- [ ] Additional validation for not-private transactions
+
+## Completed parts testnet version "Altona"
 
 ### Crypto for browser
 - [x] NTRU Web Assembly
@@ -28,6 +60,7 @@ Further tasks are tracked in the Issues Tab.
 - [x] Make all services available via domain
 - [x] Make services available with SSL
 - [x] Deploy GUI Wallet
+- [x] Faucet to get Testnet Tokens
 
 ### Crypto 
 Repository: tixl-crypto
@@ -58,7 +91,7 @@ Repository: tixl-consensus
 - [x] Federated Byzantine Agreement
 - [x] Implement SCP protocol
 - [x] Run simulations
-- [ ] Handle further Edge-Cases
+- [x] Handle further Edge-Cases
 
 ### Validator Nodes 
 Repository: tixl-validator
@@ -91,9 +124,8 @@ Repository: tixl-explorer
 - [X] Fetch transactions from network (history)
 - [X] Improve GUI
 
-## Next Steps after first testnet release
+## Next Steps after Blankenese testnet release
 
-- Faucet to get Testnet Tokens
 - Generate Keys from mnemonic phrase
 - Mini PoWs
 - Load tests
