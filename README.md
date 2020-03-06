@@ -15,12 +15,16 @@ Development updates are shared on [Discord](https://discord.gg/dzVzMdp), [Telegr
 Repository: tixl-wallet
 - [ ] Improve usability / UX
 - [ ] Improve state handling
-- [ ] Stealhchains
+  - Already a lot of the state handling has been refactored but we are still in the final refactoring steps.
+- [ ] StealhChains
+  - Transactions are already written to StealthChains and we are in the final testing.
+  - At the moment we have one StealthChain per asset instead per sender/receiver combination which has to be done, too.
 - [ ] Optional privacy
-- [ ] Shorter addresses (BIP-39 compatible)
-- [ ] Use High-Level Ledger API
-- [ ] Show transaction hash
+- [x] Shorter addresses (BIP-39 compatible)
+- [x] Use High-Level Ledger API
+- [x] Show transaction hash
 - [ ] Key handling (allow restore wallet from private key)
+  - Implemented in general but not in the UI.
 - [ ] Allow (encrypted) transaction payload
 - [ ] Show invalid blocks
 - [ ] Error handling (e.g. not enough balance, invalid block)
@@ -31,11 +35,11 @@ Repository: tixl-wallet
 
 ### Ledger
 Repository: tixl-ledger
-- [ ] Provide High-Level API
+- [x] Provide High-Level API
 - [ ] Make encryption optional
 - [ ] Burn tokens
-- [ ] Allow (encrypted) transaction payload
-- [ ] Provide number of unspend blocks
+- [x] Allow (encrypted) transaction payload
+- [ ] Provide number of unspent blocks
 - [ ] Additional validation for not-private transactions
 
 ## Completed parts testnet version "Altona"
