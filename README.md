@@ -8,13 +8,13 @@ Development updates are shared on [Discord](https://discord.gg/dzVzMdp), [Telegr
 ## Completed parts testnet version "Blankenese"
 
 ### General
-- [ ] Refactoring
-- [ ] Websockets
+- [x] Refactoring
+- [x] Websockets
 
 ### GUI Wallet
 Repository: tixl-wallet
-- [ ] Improve usability / UX
-- [ ] Improve state handling
+- [x] Improve usability / UX
+- [x] Improve state handling
   - Already a lot of the state handling has been refactored but we are still in the final refactoring steps.
 - [ ] StealhChains
   - Transactions are already written to StealthChains and we are in the final testing.
