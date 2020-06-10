@@ -6,6 +6,8 @@ We have set up a channel #github on our Discord server (https://discordapp.com/i
 Development updates are shared on [Discord](https://discord.gg/dzVzMdp), [Telegram](https://t.me/tixlcurrency) and [Twitter](https://twitter.com/tixlcurrency). Join our channels to stay up to date.
 
 ## Completed parts testnet version "Blankenese"
+To learn more about this release, read the corresponding medium article: 
+[Autobahn Network Testnet “Blankenese”](https://medium.com/tixlcurrency/autobahn-network-testnet-blankenese-4250e7171e7c)
 
 ### General
 - [x] Refactoring
@@ -16,33 +18,27 @@ Repository: tixl-wallet
 - [x] Improve usability / UX
 - [x] Improve state handling
   - Already a lot of the state handling has been refactored but we are still in the final refactoring steps.
-- [ ] StealhChains
+- [x] StealhChains
   - Transactions are already written to StealthChains and we are in the final testing.
   - At the moment we have one StealthChain per asset instead per sender/receiver combination which has to be done, too.
-- [ ] Optional privacy
 - [x] Shorter addresses (BIP-39 compatible)
 - [x] Use High-Level Ledger API
 - [x] Show transaction hash
-- [ ] Key handling (allow restore wallet from private key)
-  - Implemented in general but not in the UI.
-- [ ] Allow (encrypted) transaction payload
-- [ ] Show invalid blocks
-- [ ] Error handling (e.g. not enough balance, invalid block)
+- [x] Key handling (allow restore wallet from private key)
+- [x] Show invalid blocks
+- [x] Error handling (e.g. not enough balance, invalid block)
 
 ### Deployment & Infrastructure
 - [x] Internal Development Testnet
-- [ ] Disk Space Monitoring and Warning
 
 ### Ledger
 Repository: tixl-ledger
 - [x] Provide High-Level API
-- [ ] Make encryption optional
-- [ ] Burn tokens
 - [x] Allow (encrypted) transaction payload
-- [ ] Provide number of unspent blocks
-- [ ] Additional validation for not-private transactions
 
 ## Completed parts testnet version "Altona"
+To learn more about this release, read the corresponding medium article: 
+[Autobahn Network Testnet “Altona”](https://medium.com/tixlcurrency/tixl-testnet-rc-altona-e3198c88af02)
 
 ### Crypto for browser
 - [x] NTRU Web Assembly
@@ -128,7 +124,7 @@ Repository: tixl-explorer
 - [X] Fetch transactions from network (history)
 - [X] Improve GUI
 
-## Next Steps after Blankenese testnet release
+## Next Steps after Cranz testnet release
 
 - Generate Keys from mnemonic phrase
 - Mini PoWs
